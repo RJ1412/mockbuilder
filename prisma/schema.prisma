@@ -1,0 +1,87 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model User {
+  id           String        @id @default(cuid())
+  supabaseId   String        @unique
+  name         String
+  email        String        @unique
+  avatarUrl    String?
+  defaultMarkingCorrect   Float @default(4)
+  defaultMarkingWrong     Float @default(-1)
+  createdAt    DateTime      @default(now())
+  tests        Test[]
+  attempts     TestAttempt[]
+}
+
+model Test {
+  id               String        @id @default(cuid())
+  userId           String
+  user             User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  title            String
+  questionPaperUrl String
+  answerKeyUrl     String?
+  totalQuestions   Int
+  durationMinutes  Int
+  markingCorrect   Float
+  markingWrong     Float
+  sectionTimers    Json?
+  hasAnswerKey     Boolean       @default(false)
+  status           TestStatus    @default(READY)
+  questions        Question[]
+  attempts         TestAttempt[]
+  createdAt        DateTime      @default(now())
+}
+
+model Question {
+  id            String   @id @default(cuid())
+  testId        String
+  test          Test     @relation(fields: [testId], references: [id], onDelete: Cascade)
+  questionNo    Int
+  questionText  String
+  type          QuestionType @default(MCQ)
+  imageUrl      String?
+  optionA       String?
+  optionB       String?
+  optionC       String?
+  optionD       String?
+  correctAnswer String
+  explanation   String?
+  topic         String?
+}
+
+model TestAttempt {
+  id                  String   @id @default(cuid())
+  userId              String
+  user                User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  testId              String
+  test                Test     @relation(fields: [testId], references: [id], onDelete: Cascade)
+  responses           Json
+  score               Float
+  totalCorrect        Int
+  totalWrong          Int
+  totalUnattempted    Int
+  timeTakenSeconds    Int
+  tabSwitchCount      Int      @default(0)
+  aiSuggestions       String?
+  startedAt           DateTime
+  submittedAt         DateTime @default(now())
+}
+
+enum TestStatus {
+  PROCESSING
+  READY
+  ARCHIVED
+}
+
+enum QuestionType {
+  MCQ
+  NUMERICAL
+}
