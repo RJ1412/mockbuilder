@@ -1,0 +1,21 @@
+{
+  "name": "Resonance / FIITJEE",
+  "detect_patterns": ["Resonance", "FIITJEE", "Resonance Eduventures", "FIIT JEE"],
+  "column_mode": "dual",
+  "question_marker_regex": "^(?:Q\\.?\\s*|Question\\s*)?\\d+[\\.\\)]\\s",
+  "option_marker_regex": "^[\\(]?[A-D][\\)\\.)]\\s",
+  "section_header_patterns": [
+    "SECTION\\s*[-–]?\\s*[A-Z]",
+    "PART\\s*[-–]?\\s*[A-Z0-9IViv]+"
+  ],
+  "section_type_keywords": {
+    "mcq_single": ["Single Correct", "one correct", "Only One", "SCQ"],
+    "mcq_multi": ["More Than One", "Multiple Correct", "one or more", "MCQ"],
+    "numerical": ["Numerical", "Integer", "Numeric", "Subjective"],
+    "matrix_match": ["Match", "Column I", "Column II", "Matrix Match"]
+  },
+  "margin_top_pct": 0.05,
+  "margin_bottom_pct": 0.04,
+  "dpi": 300,
+  "padding": 10
+}

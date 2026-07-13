@@ -1,0 +1,18 @@
+{
+  "name": "Allen DLP",
+  "detect_patterns": ["ALLEN", "DLP", "Allen Career Institute", "AITS", "Leader Test Series", "Target : JEE"],
+  "column_mode": "dual",
+  "question_marker_regex": "^(?:Q\\.?\\s*)?\\d+[\\.\\)](?:\\s|$)",
+  "part_header_patterns": ["PART\\s*[-–]?\\s*(?:[IVXLCDM]+|\\d+|[A-D])\\b"],
+  "section_header_patterns": ["SECTION\\s*[-–]?\\s*(?:[IVXLCDM]+|\\d+|[A-D])\\b"],
+  "section_type_keywords": {
+    "mcq_single": ["Single Correct", "one correct", "Only One", "Single Choice"],
+    "mcq_multi": ["More Than One", "Multiple Correct", "one or more", "Multi Correct"],
+    "numerical": ["Numerical", "Integer", "Numeric", "Integer Type"],
+    "matrix_match": ["Match", "Column I", "Column II", "Matrix"]
+  },
+  "margin_top_pct": 0.04,
+  "margin_bottom_pct": 0.04,
+  "dpi": 300,
+  "padding": 10
+}

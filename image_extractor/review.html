@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBT Extractor — Review Tool v2</title>
+    <style>
+        :root {
+            --bg: #0f172a; --surface: #1e293b; --surface2: #334155;
+            --border: #475569; --text: #f1f5f9; --text-muted: #94a3b8;
+            --primary: #3b82f6; --primary-hover: #2563eb;
+            --success: #22c55e; --warning: #f59e0b; --danger: #ef4444;
+            --purple: #a855f7;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); display: flex; height: 100vh; }
+
+        /* Sidebar */
+        .sidebar { width: 340px; background: var(--surface); border-right: 1px solid var(--border); display: flex; flex-direction: column; }
+        .sidebar-header { padding: 20px; border-bottom: 1px solid var(--border); }
+        .sidebar-header h3 { margin-bottom: 12px; font-size: 18px; background: linear-gradient(135deg, var(--primary), var(--purple)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .file-upload { background: var(--primary); color: white; padding: 10px 16px; border-radius: 8px; cursor: pointer; font-weight: 600; display: block; text-align: center; transition: background 0.2s; }
+        .file-upload:hover { background: var(--primary-hover); }
+        .file-upload input { display: none; }
+
+        .stats-bar { display: flex; gap: 8px; padding: 12px 20px; border-bottom: 1px solid var(--border); font-size: 12px; }
+        .stat { padding: 4px 10px; border-radius: 6px; font-weight: 600; }
+        .stat.total { background: var(--surface2); color: var(--text-muted); }
+        .stat.flagged { background: rgba(245,158,11,0.15); color: var(--warning); }
+        .stat.ok { background: rgba(34,197,94,0.15); color: var(--success); }
+
+        .actions-bar { display: flex; gap: 8px; padding: 12px 20px; border-bottom: 1px solid var(--border); }
+        .btn-sm { padding: 6px 12px; border-radius: 6px; border: 1px solid var(--border); background: var(--surface2); color: var(--text); cursor: pointer; font-size: 12px; font-weight: 500; transition: all 0.2s; }
+        .btn-sm:hover { background: var(--primary); border-color: var(--primary); }
+        .btn-sm.active { background: var(--primary); border-color: var(--primary); }
+
+        .q-list { list-style: none; overflow-y: auto; flex: 1; }
+        .q-item { padding: 10px 20px; border-bottom: 1px solid rgba(71,85,105,0.3); cursor: pointer; display: flex; align-items: center; gap: 12px; transition: background 0.15s; }
+        .q-item:hover { background: var(--surface2); }
+        .q-item.active { background: rgba(59,130,246,0.15); border-left: 3px solid var(--primary); }
+        .q-thumb { width: 48px; height: 36px; border-radius: 4px; object-fit: cover; background: var(--surface2); border: 1px solid var(--border); flex-shrink: 0; }
+        .q-info { flex: 1; min-width: 0; }
+        .q-title { font-weight: 600; font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .q-meta { font-size: 11px; color: var(--text-muted); margin-top: 2px; }
+        .badge { font-size: 10px; padding: 2px 8px; border-radius: 10px; font-weight: 700; white-space: nowrap; }
+        .badge.review { background: rgba(245,158,11,0.2); color: var(--warning); }
+        .badge.ok { background: rgba(34,197,94,0.15); color: var(--success); }
+        .badge.type { background: rgba(168,85,247,0.15); color: var(--purple); }
+
+        .download-bar { padding: 16px 20px; border-top: 1px solid var(--border); }
+        .btn-download { width: 100%; padding: 10px; border-radius: 8px; border: none; background: linear-gradient(135deg, var(--primary), var(--purple)); color: white; font-weight: 600; cursor: pointer; font-size: 14px; transition: opacity 0.2s; }
+        .btn-download:hover { opacity: 0.9; }
+
+        /* Main */
+        .main { flex: 1; padding: 32px; overflow-y: auto; }
+        .empty-state { display: flex; height: 100%; align-items: center; justify-content: center; color: var(--text-muted); font-size: 1.1rem; flex-direction: column; gap: 12px; }
+        .question-card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 28px; max-width: 950px; margin: 0 auto; }
+        .card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; flex-wrap: wrap; gap: 10px; }
+        .card-header h2 { font-size: 20px; }
+        .card-header .meta-badges { display: flex; gap: 6px; align-items: center; }
+        .review-banner { background: rgba(245,158,11,0.1); border: 1px solid rgba(245,158,11,0.3); border-radius: 10px; padding: 12px 16px; margin-bottom: 20px; font-size: 13px; color: var(--warning); }
+        .image-container { border: 2px dashed var(--border); border-radius: 10px; padding: 16px; text-align: center; background: rgba(15,23,42,0.5); position: relative; margin-bottom: 20px; }
+        .image-container img { max-width: 100%; height: auto; border-radius: 6px; }
+        .image-label { position: absolute; top: -10px; left: 16px; background: var(--surface); padding: 0 8px; font-weight: 600; color: var(--text-muted); font-size: 12px; }
+        .edit-btn { position: absolute; top: 12px; right: 12px; background: var(--surface); border: 1px solid var(--border); padding: 5px 10px; border-radius: 6px; cursor: pointer; font-size: 12px; font-weight: 500; color: var(--text); transition: all 0.2s; }
+        .edit-btn:hover { background: var(--primary); border-color: var(--primary); }
+        .options-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+        .no-options { text-align: center; padding: 24px; color: var(--text-muted); font-style: italic; background: rgba(168,85,247,0.05); border-radius: 10px; border: 1px dashed var(--purple); }
+
+        /* Modal */
+        .modal { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 1000; align-items: center; justify-content: center; padding: 20px; }
+        .modal-content { background: var(--surface); border-radius: 16px; width: 92%; max-width: 1200px; height: 90vh; display: flex; flex-direction: column; border: 1px solid var(--border); }
+        .modal-header { padding: 16px 20px; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; }
+        .modal-body { flex: 1; overflow: auto; background: var(--bg); text-align: center; padding: 20px; }
+        .canvas-wrapper { display: inline-block; box-shadow: 0 8px 32px rgba(0,0,0,0.4); }
+        #editor-canvas { display: block; background: white; cursor: crosshair; }
+        .modal-footer { padding: 16px 20px; border-top: 1px solid var(--border); display: flex; justify-content: flex-end; gap: 10px; align-items: center; }
+        .btn { padding: 10px 20px; border-radius: 8px; border: none; cursor: pointer; font-weight: 600; font-size: 13px; transition: all 0.2s; }
+        .btn-primary { background: var(--primary); color: white; }
+        .btn-primary:hover { background: var(--primary-hover); }
+        .btn-secondary { background: var(--surface2); border: 1px solid var(--border); color: var(--text); }
+        .btn-secondary:hover { background: var(--border); }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h3>🔍 Extract Review v2</h3>
+            <label class="file-upload">
+                Select Output Folder
+                <input type="file" id="folder-input" webkitdirectory directory multiple>
+            </label>
+        </div>
+        <div class="stats-bar" id="stats-bar" style="display:none;">
+            <span class="stat total" id="stat-total"></span>
+            <span class="stat flagged" id="stat-flagged"></span>
+            <span class="stat ok" id="stat-ok"></span>
+        </div>
+        <div class="actions-bar" id="actions-bar" style="display:none;">
+            <button class="btn-sm active" id="filter-all" onclick="setFilter('all')">All</button>
+            <button class="btn-sm" id="filter-review" onclick="setFilter('review')">⚠ Flagged</button>
+            <button class="btn-sm" id="filter-ok" onclick="setFilter('ok')">✓ OK</button>
+            <button class="btn-sm" onclick="confirmAllNonFlagged()" title="Confirm all non-flagged questions">✓✓ Confirm All</button>
+        </div>
+        <ul class="q-list" id="q-list"></ul>
+        <div class="download-bar">
+            <button class="btn-download" onclick="downloadUpdatedManifest()">⬇ Download Updated Manifest</button>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="empty-state" id="empty-state">
+            <div style="font-size: 48px;">📄</div>
+            <div>Select the output folder containing<br><strong>manifest.json</strong> and images to begin review.</div>
+        </div>
+        <div id="q-viewer" style="display: none;"></div>
+    </div>
+
+    <div class="modal" id="editor-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modal-title">Edit Crop</h3>
+                <button class="btn btn-secondary" onclick="closeModal()">✕ Close</button>
+            </div>
+            <div class="modal-body">
+                <div class="canvas-wrapper"><canvas id="editor-canvas"></canvas></div>
+            </div>
+            <div class="modal-footer">
+                <span style="margin-right: auto; color: var(--text-muted); font-size: 13px;">Drag to draw a new bounding box.</span>
+                <button class="btn btn-secondary" onclick="closeModal()">Cancel</button>
+                <button class="btn btn-primary" onclick="saveCrop()">💾 Save & Download Crop</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let filesMap = new Map();
+        let manifest = null;
+        let activeQIdx = null;
+        let editingContext = null;
+        let currentFilter = 'all';
+
+        const canvas = document.getElementById('editor-canvas');
+        const ctx = canvas.getContext('2d');
+        let fullImage = new Image();
+        let isDrawing = false;
+        let startX, startY;
+        let currentBBox = null;
+
+        document.getElementById('folder-input').addEventListener('change', async (e) => {
+            const files = Array.from(e.target.files);
+            filesMap.clear();
+            let manifestFile = null;
+            files.forEach(f => { filesMap.set(f.name, f); if (f.name === 'manifest.json') manifestFile = f; });
+            if (!manifestFile) { alert("No manifest.json found!"); return; }
+            manifest = JSON.parse(await manifestFile.text());
+            manifest.questions.sort((a, b) => {
+                if (a.needs_review !== b.needs_review) return b.needs_review ? 1 : -1;
+                return (a.question_number || a.questionNo || 0) - (b.question_number || b.questionNo || 0);
+            });
+            updateStats();
+            renderSidebar();
+            if (manifest.questions.length > 0) selectQuestion(0);
+        });
+
+        function updateStats() {
+            const total = manifest.questions.length;
+            const flagged = manifest.questions.filter(q => q.needs_review || q.needsReview).length;
+            document.getElementById('stats-bar').style.display = 'flex';
+            document.getElementById('actions-bar').style.display = 'flex';
+            document.getElementById('stat-total').textContent = `${total} Total`;
+            document.getElementById('stat-flagged').textContent = `${flagged} Flagged`;
+            document.getElementById('stat-ok').textContent = `${total - flagged} OK`;
+        }
+
+        function setFilter(f) {
+            currentFilter = f;
+            document.querySelectorAll('.actions-bar .btn-sm').forEach(b => b.classList.remove('active'));
+            document.getElementById(`filter-${f}`).classList.add('active');
+            renderSidebar();
+        }
+
+        function getFilteredQuestions() {
+            if (currentFilter === 'review') return manifest.questions.filter(q => q.needs_review || q.needsReview);
+            if (currentFilter === 'ok') return manifest.questions.filter(q => !q.needs_review && !q.needsReview);
+            return manifest.questions;
+        }
+
+        function renderSidebar() {
+            const list = document.getElementById('q-list');
+            list.innerHTML = '';
+            const filtered = getFilteredQuestions();
+            filtered.forEach((q, idx) => {
+                const realIdx = manifest.questions.indexOf(q);
+                const li = document.createElement('li');
+                li.className = `q-item ${realIdx === activeQIdx ? 'active' : ''}`;
+                li.onclick = () => selectQuestion(realIdx);
+                const qNum = q.question_number || q.questionNo || q.question_id || '?';
+                const isReview = q.needs_review || q.needsReview;
+                const sType = q.section_type || q.sectionType || q.type || '';
+                const thumbSrc = getObjectURL(q.image || '');
+                const part = q.part || '';
+                const sec = q.section || '';
+
+                li.innerHTML = `
+                    ${thumbSrc ? `<img class="q-thumb" src="${thumbSrc}" alt="">` : '<div class="q-thumb"></div>'}
+                    <div class="q-info">
+                        <div class="q-title">Q${qNum} <span style="font-size:0.8em;color:var(--text-muted)">(${part})</span></div>
+                        <div class="q-meta">${sec} · Page ${q.page || '?'}</div>
+                    </div>
+                    <div style="display:flex;flex-direction:column;gap:3px;align-items:flex-end;">
+                        <span class="badge ${isReview ? 'review' : 'ok'}">${isReview ? '⚠ Review' : '✓ OK'}</span>
+                        ${sType ? `<span class="badge type">${sType}</span>` : ''}
+                    </div>
+                `;
+                list.appendChild(li);
+            });
+        }
+
+        function getObjectURL(filename) {
+            if (!filename) return '';
+            const file = filesMap.get(filename);
+            return file ? URL.createObjectURL(file) : '';
+        }
+
+        function selectQuestion(idx) {
+            activeQIdx = idx;
+            renderSidebar();
+            document.getElementById('empty-state').style.display = 'none';
+            const viewer = document.getElementById('q-viewer');
+            viewer.style.display = 'block';
+            const q = manifest.questions[idx];
+            const qNum = q.question_number || q.questionNo || '?';
+            const isReview = q.needs_review || q.needsReview;
+            const reason = q.review_reason || q.reviewReason || '';
+            const notes = q.confidence_notes || q.confidenceNotes || '';
+            const sType = q.section_type || q.sectionType || q.type || '';
+
+            viewer.innerHTML = `
+                <div class="question-card">
+                    <div class="q-header">
+                        <h2>Q${qNum} <span style="color:var(--text-muted);font-weight:normal;font-size:16px;">(Page ${q.page || '?'})</span></h2>
+                        <div style="display:flex;gap:6px;align-items:center;">
+                            ${sType ? `<div class="badge type">${sType}</div>` : ''}
+                            <button class="btn btn-secondary" style="font-size:12px;padding:6px 12px;" onclick="toggleReview(${idx})">
+                                Mark as ${isReview ? 'OK' : 'Review'}
+                            </button>
+                        </div>
+                    </div>
+                    ${isReview ? `
+                        <div class="review-banner" style="margin-bottom:20px;">
+                            ⚠ <strong>Flagged:</strong> ${reason || 'needs manual review'}${notes ? ` — ${notes}` : ''}
+                        </div>
+                    ` : ''}
+                    ${notes && !isReview ? `<div class="info-banner" style="margin-bottom:20px;">${notes}</div>` : ''}
+                    <div class="image-container">
+                        <div class="image-label">Question Block</div>
+                        ${q.image ? `<img src="${getObjectURL(q.image)}" alt="Question" onerror="this.alt='Image not found'">` : '<div style="padding:40px;color:var(--text-muted)">No question image</div>'}
+                        <button class="edit-btn" onclick="openEditor(${idx}, 'q', null)">Edit</button>
+                    </div>
+                </div>
+            `;
+        }
+
+        function toggleReview(idx) {
+            const q = manifest.questions[idx];
+            if (q.needs_review !== undefined) q.needs_review = !q.needs_review;
+            else q.needsReview = !q.needsReview;
+            updateStats(); renderSidebar(); selectQuestion(idx);
+        }
+
+        function confirmAllNonFlagged() {
+            let count = 0;
+            manifest.questions.forEach(q => {
+                const isReview = q.needs_review || q.needsReview;
+                if (!isReview) { q.confirmed = true; count++; }
+            });
+            alert(`${count} non-flagged questions confirmed.`);
+            updateStats(); renderSidebar();
+        }
+
+        async function openEditor(qIdx, type, label) {
+            const q = manifest.questions[qIdx];
+            const fullPageName = `page${q.page}_full.png`;
+            const fullPageFile = filesMap.get(fullPageName);
+            if (!fullPageFile) { alert(`Full page image (${fullPageName}) not found.`); return; }
+            editingContext = { qIdx, type, label };
+            let existingBBox = type === 'stem' ? (q.question_bbox || q.bbox_px) : (q.options?.[label]?.bbox || []);
+            currentBBox = existingBBox ? [...existingBBox] : null;
+            document.getElementById('modal-title').textContent = type === 'stem' ? `Edit Q${q.question_number || q.questionNo} Crop` : `Edit Option ${label} Crop`;
+            document.getElementById('editor-modal').style.display = 'flex';
+            fullImage.onload = () => { canvas.width = fullImage.width; canvas.height = fullImage.height; drawCanvas(); };
+            fullImage.src = URL.createObjectURL(fullPageFile);
+        }
+
+        function drawCanvas() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.drawImage(fullImage, 0, 0);
+            ctx.fillStyle = 'rgba(0, 0, 0, 0.5)';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            if (currentBBox && currentBBox.length === 4) {
+                const [x0, y0, x1, y1] = currentBBox;
+                const w = x1 - x0, h = y1 - y0;
+                ctx.clearRect(x0, y0, w, h);
+                ctx.drawImage(fullImage, x0, y0, w, h, x0, y0, w, h);
+                ctx.strokeStyle = '#3b82f6'; ctx.lineWidth = 2; ctx.strokeRect(x0, y0, w, h);
+            }
+        }
+
+        canvas.onmousedown = (e) => { const r = canvas.getBoundingClientRect(); const sx = canvas.width/r.width, sy = canvas.height/r.height; startX = (e.clientX-r.left)*sx; startY = (e.clientY-r.top)*sy; isDrawing = true; currentBBox = [startX,startY,startX,startY]; };
+        canvas.onmousemove = (e) => { if (!isDrawing) return; const r = canvas.getBoundingClientRect(); const sx = canvas.width/r.width, sy = canvas.height/r.height; const cx = (e.clientX-r.left)*sx, cy = (e.clientY-r.top)*sy; currentBBox = [Math.min(startX,cx),Math.min(startY,cy),Math.max(startX,cx),Math.max(startY,cy)]; drawCanvas(); };
+        canvas.onmouseup = () => { isDrawing = false; };
+
+        function closeModal() { document.getElementById('editor-modal').style.display = 'none'; }
+
+        function saveCrop() {
+            if (!currentBBox) return;
+            const q = manifest.questions[editingContext.qIdx];
+            const bbox = currentBBox.map(Math.round);
+            let targetFilename = '';
+            if (editingContext.type === 'stem') {
+                q.question_bbox = bbox; q.needs_review = false; q.needsReview = false;
+                targetFilename = q.question_image || `q${q.question_number || q.questionNo}_crop.png`;
+            } else if (q.options?.[editingContext.label]) {
+                const opt = q.options[editingContext.label];
+                if (typeof opt === 'object') { opt.bbox = bbox; targetFilename = opt.image || `opt_${editingContext.label}.png`; }
+                else { targetFilename = `opt_${editingContext.label}.png`; }
+            }
+            const tc = document.createElement('canvas');
+            const [x0,y0,x1,y1] = bbox; tc.width = x1-x0; tc.height = y1-y0;
+            tc.getContext('2d').drawImage(fullImage, x0, y0, x1-x0, y1-y0, 0, 0, x1-x0, y1-y0);
+            tc.toBlob(blob => {
+                const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = targetFilename; a.click();
+                filesMap.set(targetFilename, new File([blob], targetFilename, {type:'image/png'}));
+                closeModal(); updateStats(); renderSidebar(); selectQuestion(editingContext.qIdx);
+            }, 'image/png');
+        }
+
+        function downloadUpdatedManifest() {
+            if (!manifest) return;
+            const a = document.createElement('a');
+            a.href = URL.createObjectURL(new Blob([JSON.stringify(manifest, null, 2)], {type:'application/json'}));
+            a.download = 'manifest.json'; a.click();
+        }
+    </script>
+</body>
+</html>

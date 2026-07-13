@@ -17,7 +17,7 @@ export async function POST(request: Request) {
     const questionPaperFile = formData.get('questionPaperFile') as File | null
     const answerKeyFile = formData.get('answerKeyFile') as File | null
     const title = formData.get('title') as string
-    const totalQuestions = parseInt(formData.get('totalQuestions') as string)
+    const totalQuestions = 0 // Will be updated after extraction
     const durationMinutes = parseInt(formData.get('durationMinutes') as string)
     const markingCorrect = parseFloat(formData.get('markingCorrect') as string)
     const markingWrong = parseFloat(formData.get('markingWrong') as string)

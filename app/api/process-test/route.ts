@@ -36,31 +36,49 @@ export async function POST(request: Request) {
     if (qpError) throw new Error("Failed to download question paper: " + qpError.message)
     const qpBuffer = Buffer.from(await qpBlob.arrayBuffer())
 
-    // 2. Advanced Layout-Aware Parser (Local Node.js)
-    console.log("Starting Local Advanced PDF Parse...")
-    const parsedQuestions = await parsePdfAdvanced(qpBuffer)
-    console.log("Extracted Questions:", parsedQuestions.length)
+    // 2. Send PDF to Python FastApi Microservice (Image Extractor)
+    console.log("Calling Python Image Extractor API...")
+    
+    // Create FormData with the buffer
+    const formData = new FormData()
+    formData.append('file', new Blob([qpBuffer], { type: 'application/pdf' }), 'test.pdf')
+    
+    // Send to localhost:5000 (Python microservice)
+    const pythonUrl = process.env.PYTHON_PARSER_URL || 'http://127.0.0.1:5000'
+    const pyRes = await fetch(`${pythonUrl}/extract?testId=${test.id}`, {
+      method: 'POST',
+      body: formData
+    })
+    
+    if (!pyRes.ok) {
+      throw new Error(`Python API failed: ${pyRes.statusText}`)
+    }
+    
+    const pyData = await pyRes.json()
+    const parsedQuestions = pyData.questions || []
+    
+    console.log("Extracted Questions from Python API:", parsedQuestions.length)
 
     if (parsedQuestions.length === 0) {
-      throw new Error("Local parser failed to extract questions. The PDF format may be unsupported.")
+      throw new Error("Python parser failed to extract questions. The PDF format may be unsupported.")
     }
 
     // 4. Insert into DB
     const sanitize = (str: string | null | undefined) => str ? str.replace(/\0/g, '') : str;
 
-    const questionsData = parsedQuestions.slice(0, test.totalQuestions).map((q: any) => ({
+    const questionsData = parsedQuestions.map((q: any, idx: number) => ({
       testId: test.id,
-      questionNo: parseInt(q.questionNo) || 0,
-      questionText: sanitize(q.questionText) || '',
-      type: q.type || 'MCQ',
-      imageUrl: q.imageUrl || null,
-      optionA: sanitize(q.optionA) || null,
-      optionB: sanitize(q.optionB) || null,
-      optionC: sanitize(q.optionC) || null,
-      optionD: sanitize(q.optionD) || null,
-      correctAnswer: q.correctAnswer || "",
-      explanation: sanitize(q.explanation) || null,
-      topic: sanitize(q.topic) || null
+      questionNo: idx + 1,
+      questionText: `[${q.part || 'Part'} - ${q.section || 'Section'}] Q${q.printed_number || q.questionNo || ''}`,
+      type: q.type === 'numerical' ? 'NUMERICAL' : 'MCQ',
+      imageUrl: q.image || q.imageUrl || null,
+      optionA: null,
+      optionB: null,
+      optionC: null,
+      optionD: null,
+      correctAnswer: "",
+      explanation: null,
+      topic: null
     }))
 
     await prisma.question.createMany({
@@ -70,7 +88,10 @@ export async function POST(request: Request) {
     // 5. Update Status
     await prisma.test.update({
       where: { id: test.id },
-      data: { status: "PROCESSING" }
+      data: { 
+        status: "PROCESSING",
+        totalQuestions: parsedQuestions.length
+      }
     })
 
     return NextResponse.json({ success: true })

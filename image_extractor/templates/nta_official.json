@@ -1,0 +1,21 @@
+{
+  "name": "NTA Official",
+  "detect_patterns": ["NTA", "National Testing Agency", "JEE(Main)", "JEE (Main)", "JEE(Advanced)"],
+  "column_mode": "single",
+  "question_marker_regex": "^(?:Q\\.?\\s*)?\\d+[\\.\\)]\\s",
+  "option_marker_regex": "^[\\(]?[1-4A-D][\\)\\.)]\\s",
+  "section_header_patterns": [
+    "SECTION\\s*[-–]?\\s*[A-Z]",
+    "PART\\s*[-–]?\\s*[A-Z0-9IViv]+"
+  ],
+  "section_type_keywords": {
+    "mcq_single": ["Single Correct", "one correct", "Only One"],
+    "mcq_multi": ["More Than One", "Multiple Correct", "one or more"],
+    "numerical": ["Numerical", "Integer", "Numeric", "decimal"],
+    "matrix_match": ["Match", "Column I", "Column II"]
+  },
+  "margin_top_pct": 0.08,
+  "margin_bottom_pct": 0.05,
+  "dpi": 300,
+  "padding": 12
+}

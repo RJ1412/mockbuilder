@@ -169,7 +169,7 @@ export default async function TestResultPage({ params, searchParams }: { params:
                         <p className="flex items-center gap-2 text-sm font-semibold text-blue-800 dark:text-blue-300 mb-1">
                           <HelpCircle className="w-4 h-4" /> AI Explanation
                         </p>
-                        <p className="text-sm text-blue-900 dark:text-blue-200">{q.explanation}</p>
+                        <div className="text-sm text-blue-900 dark:text-blue-200 whitespace-pre-wrap">{q.explanation}</div>
                       </div>
                     )}
                   </div>

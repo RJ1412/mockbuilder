@@ -1,0 +1,1769 @@
+{
+  "source_pdf": "scratch.pdf",
+  "questions": [
+    {
+      "question_id": "General_SECTIONAL_Q1",
+      "part": "General",
+      "section": "SECTIONAL",
+      "printed_number": 1,
+      "type": "mcq_single",
+      "image": "general_sectional_q1.png",
+      "page": 2,
+      "bbox_px": [
+        111,
+        1022,
+        1224,
+        1730
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTIONAL_Q2",
+      "part": "General",
+      "section": "SECTIONAL",
+      "printed_number": 2,
+      "type": "mcq_single",
+      "image": "general_sectional_q2.png",
+      "page": 2,
+      "bbox_px": [
+        108,
+        1706,
+        2376,
+        2858
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTIONAL_Q4",
+      "part": "General",
+      "section": "SECTIONAL",
+      "printed_number": 4,
+      "type": "mcq_single",
+      "image": "general_sectional_q4.png",
+      "page": 3,
+      "bbox_px": [
+        108,
+        1511,
+        2376,
+        2858
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_OF_Q6",
+      "part": "General",
+      "section": "SECTION_OF",
+      "printed_number": 6,
+      "type": "mcq_single",
+      "image": "general_section_of_q6.png",
+      "page": 4,
+      "bbox_px": [
+        108,
+        1432,
+        2376,
+        2858
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_OF_Q8",
+      "part": "General",
+      "section": "SECTION_OF",
+      "printed_number": 8,
+      "type": "mcq_single",
+      "image": "general_section_of_q8.png",
+      "page": 5,
+      "bbox_px": [
+        111,
+        790,
+        1218,
+        1608
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_OF_Q9",
+      "part": "General",
+      "section": "SECTION_OF",
+      "printed_number": 9,
+      "type": "mcq_single",
+      "image": "general_section_of_q9.png",
+      "page": 5,
+      "bbox_px": [
+        108,
+        1584,
+        2376,
+        2858
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_OF_Q11",
+      "part": "General",
+      "section": "SECTION_OF",
+      "printed_number": 11,
+      "type": "mcq_single",
+      "image": "general_section_of_q11.png",
+      "page": 6,
+      "bbox_px": [
+        111,
+        731,
+        1218,
+        1449
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_12._A_CYLINDRICAL_TU_Q12",
+      "part": "General",
+      "section": "12._A_CYLINDRICAL_TU",
+      "printed_number": 12,
+      "type": "mcq_single",
+      "image": "general_12._a_cylindrical_tu_q12.png",
+      "page": 6,
+      "bbox_px": [
+        111,
+        1425,
+        1218,
+        2033
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_12._A_CYLINDRICAL_TU_Q13",
+      "part": "General",
+      "section": "12._A_CYLINDRICAL_TU",
+      "printed_number": 13,
+      "type": "mcq_single",
+      "image": "general_12._a_cylindrical_tu_q13.png",
+      "page": 6,
+      "bbox_px": [
+        108,
+        2009,
+        2376,
+        2858
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_BY_A_POTENTIAL_DIFFE_Q15",
+      "part": "General",
+      "section": "BY_A_POTENTIAL_DIFFE",
+      "printed_number": 15,
+      "type": "mcq_single",
+      "image": "general_by_a_potential_diffe_q15.png",
+      "page": 7,
+      "bbox_px": [
+        111,
+        772,
+        1220,
+        1405
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_16._A_PARTICLE_OF_MA_Q16",
+      "part": "General",
+      "section": "16._A_PARTICLE_OF_MA",
+      "printed_number": 16,
+      "type": "mcq_single",
+      "image": "general_16._a_particle_of_ma_q16.png",
+      "page": 7,
+      "bbox_px": [
+        111,
+        1381,
+        1220,
+        1858
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_17._TWO_PARTICLES_OF_Q17",
+      "part": "General",
+      "section": "17._TWO_PARTICLES_OF",
+      "printed_number": 17,
+      "type": "mcq_single",
+      "image": "general_17._two_particles_of_q17.png",
+      "page": 7,
+      "bbox_px": [
+        108,
+        1834,
+        2376,
+        2858
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_19._A_PARTICLE_TRAVE_Q19",
+      "part": "General",
+      "section": "19._A_PARTICLE_TRAVE",
+      "printed_number": 19,
+      "type": "mcq_single",
+      "image": "general_19._a_particle_trave_q19.png",
+      "page": 8,
+      "bbox_px": [
+        111,
+        1089,
+        1219,
+        1602
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_19._A_PARTICLE_TRAVE_Q20",
+      "part": "General",
+      "section": "19._A_PARTICLE_TRAVE",
+      "printed_number": 20,
+      "type": "mcq_single",
+      "image": "general_19._a_particle_trave_q20.png",
+      "page": 8,
+      "bbox_px": [
+        108,
+        1578,
+        2376,
+        2858
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q1",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 1,
+      "type": "mcq_single",
+      "image": "general_section_contains_q1.png",
+      "page": 9,
+      "bbox_px": [
+        111,
+        1050,
+        1223,
+        1074
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q1",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 1,
+      "type": "mcq_single",
+      "image": "general_section_contains_q1.png",
+      "page": 9,
+      "bbox_px": [
+        111,
+        1050,
+        1223,
+        1074
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q1",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 1,
+      "type": "mcq_single",
+      "image": "general_section_contains_q1.png",
+      "page": 9,
+      "bbox_px": [
+        111,
+        1050,
+        1223,
+        1074
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q1",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 1,
+      "type": "mcq_single",
+      "image": "general_section_contains_q1.png",
+      "page": 9,
+      "bbox_px": [
+        111,
+        1050,
+        1223,
+        1074
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q1",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 1,
+      "type": "mcq_single",
+      "image": "general_section_contains_q1.png",
+      "page": 9,
+      "bbox_px": [
+        111,
+        1050,
+        1223,
+        1074
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q1",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 1,
+      "type": "mcq_single",
+      "image": "general_section_contains_q1.png",
+      "page": 9,
+      "bbox_px": [
+        111,
+        1050,
+        1223,
+        2143
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q2",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 2,
+      "type": "mcq_single",
+      "image": "general_section_contains_q2.png",
+      "page": 9,
+      "bbox_px": [
+        111,
+        2119,
+        1223,
+        2143
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q2",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 2,
+      "type": "mcq_single",
+      "image": "general_section_contains_q2.png",
+      "page": 9,
+      "bbox_px": [
+        111,
+        2119,
+        1223,
+        2143
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q2",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 2,
+      "type": "mcq_single",
+      "image": "general_section_contains_q2.png",
+      "page": 9,
+      "bbox_px": [
+        111,
+        2119,
+        1223,
+        2143
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q2",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 2,
+      "type": "mcq_single",
+      "image": "general_section_contains_q2.png",
+      "page": 9,
+      "bbox_px": [
+        111,
+        2119,
+        1223,
+        2143
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q2",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 2,
+      "type": "mcq_single",
+      "image": "general_section_contains_q2.png",
+      "page": 9,
+      "bbox_px": [
+        111,
+        2119,
+        1223,
+        2143
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q2",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 2,
+      "type": "mcq_single",
+      "image": "general_section_contains_q2.png",
+      "page": 9,
+      "bbox_px": [
+        108,
+        2119,
+        2376,
+        2858
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q4",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 4,
+      "type": "mcq_single",
+      "image": "general_section_contains_q4.png",
+      "page": 10,
+      "bbox_px": [
+        111,
+        881,
+        1219,
+        905
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q4",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 4,
+      "type": "mcq_single",
+      "image": "general_section_contains_q4.png",
+      "page": 10,
+      "bbox_px": [
+        111,
+        881,
+        1219,
+        905
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q4",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 4,
+      "type": "mcq_single",
+      "image": "general_section_contains_q4.png",
+      "page": 10,
+      "bbox_px": [
+        111,
+        881,
+        1219,
+        905
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q4",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 4,
+      "type": "mcq_single",
+      "image": "general_section_contains_q4.png",
+      "page": 10,
+      "bbox_px": [
+        111,
+        881,
+        1219,
+        905
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q4",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 4,
+      "type": "mcq_single",
+      "image": "general_section_contains_q4.png",
+      "page": 10,
+      "bbox_px": [
+        111,
+        881,
+        1219,
+        905
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q4",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 4,
+      "type": "mcq_single",
+      "image": "general_section_contains_q4.png",
+      "page": 10,
+      "bbox_px": [
+        111,
+        881,
+        1219,
+        1486
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q5",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 5,
+      "type": "mcq_single",
+      "image": "general_section_contains_q5.png",
+      "page": 10,
+      "bbox_px": [
+        111,
+        1462,
+        1219,
+        1486
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q5",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 5,
+      "type": "mcq_single",
+      "image": "general_section_contains_q5.png",
+      "page": 10,
+      "bbox_px": [
+        111,
+        1462,
+        1219,
+        1486
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q5",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 5,
+      "type": "mcq_single",
+      "image": "general_section_contains_q5.png",
+      "page": 10,
+      "bbox_px": [
+        111,
+        1462,
+        1219,
+        1486
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q5",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 5,
+      "type": "mcq_single",
+      "image": "general_section_contains_q5.png",
+      "page": 10,
+      "bbox_px": [
+        111,
+        1462,
+        1219,
+        1486
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q5",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 5,
+      "type": "mcq_single",
+      "image": "general_section_contains_q5.png",
+      "page": 10,
+      "bbox_px": [
+        111,
+        1462,
+        1219,
+        1486
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q5",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 5,
+      "type": "mcq_single",
+      "image": "general_section_contains_q5.png",
+      "page": 10,
+      "bbox_px": [
+        108,
+        1462,
+        2376,
+        2858
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q7",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 7,
+      "type": "mcq_single",
+      "image": "general_section_contains_q7.png",
+      "page": 13,
+      "bbox_px": [
+        111,
+        803,
+        1219,
+        827
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q7",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 7,
+      "type": "mcq_single",
+      "image": "general_section_contains_q7.png",
+      "page": 13,
+      "bbox_px": [
+        111,
+        803,
+        1219,
+        827
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q7",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 7,
+      "type": "mcq_single",
+      "image": "general_section_contains_q7.png",
+      "page": 13,
+      "bbox_px": [
+        111,
+        803,
+        1219,
+        827
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q7",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 7,
+      "type": "mcq_single",
+      "image": "general_section_contains_q7.png",
+      "page": 13,
+      "bbox_px": [
+        111,
+        803,
+        1219,
+        827
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q7",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 7,
+      "type": "mcq_single",
+      "image": "general_section_contains_q7.png",
+      "page": 13,
+      "bbox_px": [
+        111,
+        803,
+        1219,
+        827
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q7",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 7,
+      "type": "mcq_single",
+      "image": "general_section_contains_q7.png",
+      "page": 13,
+      "bbox_px": [
+        111,
+        803,
+        1219,
+        1383
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q8",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 8,
+      "type": "mcq_single",
+      "image": "general_section_contains_q8.png",
+      "page": 13,
+      "bbox_px": [
+        111,
+        1359,
+        1219,
+        1383
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q8",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 8,
+      "type": "mcq_single",
+      "image": "general_section_contains_q8.png",
+      "page": 13,
+      "bbox_px": [
+        111,
+        1359,
+        1219,
+        1383
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q8",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 8,
+      "type": "mcq_single",
+      "image": "general_section_contains_q8.png",
+      "page": 13,
+      "bbox_px": [
+        111,
+        1359,
+        1219,
+        1383
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q8",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 8,
+      "type": "mcq_single",
+      "image": "general_section_contains_q8.png",
+      "page": 13,
+      "bbox_px": [
+        111,
+        1359,
+        1219,
+        1383
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q8",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 8,
+      "type": "mcq_single",
+      "image": "general_section_contains_q8.png",
+      "page": 13,
+      "bbox_px": [
+        111,
+        1359,
+        1219,
+        1383
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q8",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 8,
+      "type": "mcq_single",
+      "image": "general_section_contains_q8.png",
+      "page": 13,
+      "bbox_px": [
+        111,
+        1359,
+        1219,
+        2049
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q9",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 9,
+      "type": "mcq_single",
+      "image": "general_section_contains_q9.png",
+      "page": 13,
+      "bbox_px": [
+        111,
+        2025,
+        1219,
+        2257
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q9",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 9,
+      "type": "mcq_single",
+      "image": "general_section_contains_q9.png",
+      "page": 13,
+      "bbox_px": [
+        111,
+        2025,
+        1219,
+        2257
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q9",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 9,
+      "type": "mcq_single",
+      "image": "general_section_contains_q9.png",
+      "page": 13,
+      "bbox_px": [
+        111,
+        2025,
+        1219,
+        2257
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q9",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 9,
+      "type": "mcq_single",
+      "image": "general_section_contains_q9.png",
+      "page": 13,
+      "bbox_px": [
+        111,
+        2025,
+        1219,
+        2257
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q9",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 9,
+      "type": "mcq_single",
+      "image": "general_section_contains_q9.png",
+      "page": 13,
+      "bbox_px": [
+        111,
+        2025,
+        1219,
+        2257
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q9",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 9,
+      "type": "mcq_single",
+      "image": "general_section_contains_q9.png",
+      "page": 13,
+      "bbox_px": [
+        111,
+        2025,
+        1219,
+        2330
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q10",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 10,
+      "type": "mcq_single",
+      "image": "general_section_contains_q10.png",
+      "page": 13,
+      "bbox_px": [
+        111,
+        2306,
+        1219,
+        2330
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q10",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 10,
+      "type": "mcq_single",
+      "image": "general_section_contains_q10.png",
+      "page": 13,
+      "bbox_px": [
+        111,
+        2306,
+        1219,
+        2330
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q10",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 10,
+      "type": "mcq_single",
+      "image": "general_section_contains_q10.png",
+      "page": 13,
+      "bbox_px": [
+        111,
+        2306,
+        1219,
+        2330
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q10",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 10,
+      "type": "mcq_single",
+      "image": "general_section_contains_q10.png",
+      "page": 13,
+      "bbox_px": [
+        111,
+        2306,
+        1219,
+        2330
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q10",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 10,
+      "type": "mcq_single",
+      "image": "general_section_contains_q10.png",
+      "page": 13,
+      "bbox_px": [
+        111,
+        2306,
+        1219,
+        2330
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q10",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 10,
+      "type": "mcq_single",
+      "image": "general_section_contains_q10.png",
+      "page": 13,
+      "bbox_px": [
+        108,
+        2306,
+        2376,
+        2858
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q12",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 12,
+      "type": "mcq_single",
+      "image": "general_section_contains_q12.png",
+      "page": 14,
+      "bbox_px": [
+        111,
+        953,
+        1219,
+        977
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q12",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 12,
+      "type": "mcq_single",
+      "image": "general_section_contains_q12.png",
+      "page": 14,
+      "bbox_px": [
+        111,
+        953,
+        1219,
+        977
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q12",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 12,
+      "type": "mcq_single",
+      "image": "general_section_contains_q12.png",
+      "page": 14,
+      "bbox_px": [
+        111,
+        953,
+        1219,
+        977
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q12",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 12,
+      "type": "mcq_single",
+      "image": "general_section_contains_q12.png",
+      "page": 14,
+      "bbox_px": [
+        111,
+        953,
+        1219,
+        977
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q12",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 12,
+      "type": "mcq_single",
+      "image": "general_section_contains_q12.png",
+      "page": 14,
+      "bbox_px": [
+        111,
+        953,
+        1219,
+        977
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q12",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 12,
+      "type": "mcq_single",
+      "image": "general_section_contains_q12.png",
+      "page": 14,
+      "bbox_px": [
+        111,
+        953,
+        1219,
+        1327
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q13",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 13,
+      "type": "mcq_single",
+      "image": "general_section_contains_q13.png",
+      "page": 14,
+      "bbox_px": [
+        111,
+        1303,
+        1219,
+        1327
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q13",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 13,
+      "type": "mcq_single",
+      "image": "general_section_contains_q13.png",
+      "page": 14,
+      "bbox_px": [
+        111,
+        1303,
+        1219,
+        1327
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q13",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 13,
+      "type": "mcq_single",
+      "image": "general_section_contains_q13.png",
+      "page": 14,
+      "bbox_px": [
+        111,
+        1303,
+        1219,
+        1327
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q13",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 13,
+      "type": "mcq_single",
+      "image": "general_section_contains_q13.png",
+      "page": 14,
+      "bbox_px": [
+        111,
+        1303,
+        1219,
+        1327
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q13",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 13,
+      "type": "mcq_single",
+      "image": "general_section_contains_q13.png",
+      "page": 14,
+      "bbox_px": [
+        111,
+        1303,
+        1219,
+        1327
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q13",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 13,
+      "type": "mcq_single",
+      "image": "general_section_contains_q13.png",
+      "page": 14,
+      "bbox_px": [
+        111,
+        1303,
+        1219,
+        2308
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q14",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 14,
+      "type": "mcq_single",
+      "image": "general_section_contains_q14.png",
+      "page": 14,
+      "bbox_px": [
+        111,
+        2284,
+        1219,
+        2308
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q14",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 14,
+      "type": "mcq_single",
+      "image": "general_section_contains_q14.png",
+      "page": 14,
+      "bbox_px": [
+        111,
+        2284,
+        1219,
+        2308
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q14",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 14,
+      "type": "mcq_single",
+      "image": "general_section_contains_q14.png",
+      "page": 14,
+      "bbox_px": [
+        111,
+        2284,
+        1219,
+        2308
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q14",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 14,
+      "type": "mcq_single",
+      "image": "general_section_contains_q14.png",
+      "page": 14,
+      "bbox_px": [
+        111,
+        2284,
+        1219,
+        2308
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q14",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 14,
+      "type": "mcq_single",
+      "image": "general_section_contains_q14.png",
+      "page": 14,
+      "bbox_px": [
+        111,
+        2284,
+        1219,
+        2308
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q14",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 14,
+      "type": "mcq_single",
+      "image": "general_section_contains_q14.png",
+      "page": 14,
+      "bbox_px": [
+        108,
+        2284,
+        2376,
+        2858
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q16",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 16,
+      "type": "mcq_single",
+      "image": "general_section_contains_q16.png",
+      "page": 15,
+      "bbox_px": [
+        111,
+        1681,
+        1218,
+        1705
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q16",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 16,
+      "type": "mcq_single",
+      "image": "general_section_contains_q16.png",
+      "page": 15,
+      "bbox_px": [
+        111,
+        1681,
+        1218,
+        1705
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q16",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 16,
+      "type": "mcq_single",
+      "image": "general_section_contains_q16.png",
+      "page": 15,
+      "bbox_px": [
+        111,
+        1681,
+        1218,
+        1705
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q16",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 16,
+      "type": "mcq_single",
+      "image": "general_section_contains_q16.png",
+      "page": 15,
+      "bbox_px": [
+        111,
+        1681,
+        1218,
+        1705
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q16",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 16,
+      "type": "mcq_single",
+      "image": "general_section_contains_q16.png",
+      "page": 15,
+      "bbox_px": [
+        111,
+        1681,
+        1218,
+        1705
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q16",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 16,
+      "type": "mcq_single",
+      "image": "general_section_contains_q16.png",
+      "page": 15,
+      "bbox_px": [
+        108,
+        1681,
+        2376,
+        2858
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q18",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 18,
+      "type": "mcq_single",
+      "image": "general_section_contains_q18.png",
+      "page": 16,
+      "bbox_px": [
+        111,
+        2037,
+        1218,
+        2061
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q18",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 18,
+      "type": "mcq_single",
+      "image": "general_section_contains_q18.png",
+      "page": 16,
+      "bbox_px": [
+        111,
+        2037,
+        1218,
+        2061
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q18",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 18,
+      "type": "mcq_single",
+      "image": "general_section_contains_q18.png",
+      "page": 16,
+      "bbox_px": [
+        111,
+        2037,
+        1218,
+        2061
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q18",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 18,
+      "type": "mcq_single",
+      "image": "general_section_contains_q18.png",
+      "page": 16,
+      "bbox_px": [
+        111,
+        2037,
+        1218,
+        2061
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q18",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 18,
+      "type": "mcq_single",
+      "image": "general_section_contains_q18.png",
+      "page": 16,
+      "bbox_px": [
+        111,
+        2037,
+        1218,
+        2061
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q18",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 18,
+      "type": "mcq_single",
+      "image": "general_section_contains_q18.png",
+      "page": 16,
+      "bbox_px": [
+        108,
+        2037,
+        2376,
+        2858
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q20",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 20,
+      "type": "mcq_single",
+      "image": "general_section_contains_q20.png",
+      "page": 17,
+      "bbox_px": [
+        111,
+        1198,
+        1218,
+        1518
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q20",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 20,
+      "type": "mcq_single",
+      "image": "general_section_contains_q20.png",
+      "page": 17,
+      "bbox_px": [
+        111,
+        1198,
+        1218,
+        1518
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q20",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 20,
+      "type": "mcq_single",
+      "image": "general_section_contains_q20.png",
+      "page": 17,
+      "bbox_px": [
+        111,
+        1198,
+        1218,
+        1518
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q20",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 20,
+      "type": "mcq_single",
+      "image": "general_section_contains_q20.png",
+      "page": 17,
+      "bbox_px": [
+        111,
+        1198,
+        1218,
+        1518
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q20",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 20,
+      "type": "mcq_single",
+      "image": "general_section_contains_q20.png",
+      "page": 17,
+      "bbox_px": [
+        111,
+        1198,
+        1218,
+        1518
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    },
+    {
+      "question_id": "General_SECTION_CONTAINS_Q20",
+      "part": "General",
+      "section": "SECTION_CONTAINS",
+      "printed_number": 20,
+      "type": "mcq_single",
+      "image": "general_section_contains_q20.png",
+      "page": 17,
+      "bbox_px": [
+        108,
+        1198,
+        2376,
+        2858
+      ],
+      "needs_review": true,
+      "review_reason": "missing_question_number",
+      "confidenceNotes": ""
+    }
+  ]
+}

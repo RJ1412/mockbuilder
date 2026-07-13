@@ -14,7 +14,7 @@ export default async function CBTPage({ params }: { params: { id: string } }) {
     where: { id: params.id, userId: dbUser?.id },
     include: {
       questions: {
-        orderBy: { questionNo: 'asc' }
+        orderBy: { id: 'asc' }
       }
     }
   })

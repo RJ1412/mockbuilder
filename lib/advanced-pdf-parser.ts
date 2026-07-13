@@ -303,9 +303,11 @@ export async function parsePdfAdvanced(buffer: Buffer) {
     }
   }
 
-  // Map genuine answers to questions
+  // Map genuine answers to questions and fix questionNo to be globally sequential
   for (let i = 0; i < questions.length; i++) {
     const qNum = i + 1; // 1-indexed overall question number across all subjects
+    questions[i].questionNo = qNum;
+    
     if (answerKeyMap[qNum]) {
       questions[i].correctAnswer = answerKeyMap[qNum];
     } else {

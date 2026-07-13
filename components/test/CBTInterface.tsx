@@ -219,8 +219,9 @@ export function CBTInterface({ test }: { test: any }) {
     return "bg-gray-200 dark:bg-zinc-700 text-gray-700 dark:text-gray-300 border-gray-300 dark:border-zinc-600"
   }
 
-  const OptionCard = ({ label, text, optionId }: { label: string, text: string, optionId: string }) => {
+  const OptionCard = ({ label, optionId }: { label: string, optionId: string }) => {
     const isSelected = responses[currentQuestion.questionNo] === optionId
+    
     return (
       <div 
         onClick={() => handleSelectOption(optionId)}
@@ -233,7 +234,9 @@ export function CBTInterface({ test }: { test: any }) {
           ${isSelected ? 'border-primary-foreground bg-primary text-primary-foreground' : 'border-muted-foreground text-muted-foreground'}`}>
           {label}
         </div>
-        <div className="text-lg leading-relaxed">{text}</div>
+        <div className="text-lg font-semibold flex-1">
+          Option {label}
+        </div>
       </div>
     )
   }
@@ -338,18 +341,14 @@ export function CBTInterface({ test }: { test: any }) {
                 />
               </div>
             ) : (
-              <div className="space-y-4">
-                {['A', 'B', 'C', 'D'].map((opt) => {
-                  const optKey = `option${opt}` as keyof typeof currentQuestion
-                  return (
-                    <OptionCard 
-                      key={opt} 
-                      label={opt} 
-                      text={currentQuestion[optKey] as string} 
-                      optionId={opt} 
-                    />
-                  )
-                })}
+              <div className="grid grid-cols-2 gap-4">
+                {['A', 'B', 'C', 'D'].map((opt) => (
+                  <OptionCard 
+                    key={opt} 
+                    label={opt} 
+                    optionId={opt} 
+                  />
+                ))}
               </div>
             )}
           </div>

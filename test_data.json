@@ -1,0 +1,1240 @@
+{
+  "metadata": {
+    "exam_name": "Mock CBT Exam",
+    "total_questions": 35,
+    "total_marks": 140,
+    "duration_minutes": 180,
+    "subjects": [
+      "Physics",
+      "Chemistry",
+      "Mathematics"
+    ]
+  },
+  "questions": [
+    {
+      "question_id": "q-2",
+      "subject": "Physics",
+      "section": "Section-I",
+      "question_number": 2,
+      "question_text": "1 kV/m (B) 2 kV/m",
+      "question_images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "1 kV/m",
+          "image": null
+        },
+        {
+          "label": "B",
+          "text": "2 kV/m",
+          "image": null
+        },
+        {
+          "label": "C",
+          "text": "1.4 kV/m",
+          "image": null
+        },
+        {
+          "label": "D",
+          "text": "0.7 kV/m",
+          "image": null
+        }
+      ],
+      "question_type": "single_correct",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "correct_answer": "A",
+      "solution": null
+    },
+    {
+      "question_id": "q-14",
+      "subject": "Physics",
+      "section": "Section-I",
+      "question_number": 14,
+      "question_text": "1 : 1 (B) 1 : 2",
+      "question_images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "1 : 1",
+          "image": null
+        },
+        {
+          "label": "B",
+          "text": "1 : 2",
+          "image": null
+        },
+        {
+          "label": "C",
+          "text": "1 : √ 2",
+          "image": null
+        },
+        {
+          "label": "D",
+          "text": "√ 2 : 1",
+          "image": null
+        }
+      ],
+      "question_type": "single_correct",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "correct_answer": "A",
+      "solution": null
+    },
+    {
+      "question_id": "q-16",
+      "subject": "Physics",
+      "section": "Section-I",
+      "question_number": 16,
+      "question_text": "zero (B) 2RT 0 ℓ n2",
+      "question_images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "\u0000",
+          "image": null
+        },
+        {
+          "label": "B",
+          "text": "2RT 0 ℓ n2",
+          "image": null
+        },
+        {
+          "label": "C",
+          "text": "– 2RT 0 ℓ n2",
+          "image": null
+        },
+        {
+          "label": "D",
+          "text": "4RT 0 ℓ n2",
+          "image": null
+        }
+      ],
+      "question_type": "single_correct",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "correct_answer": "A",
+      "solution": null
+    },
+    {
+      "question_id": "q-18",
+      "subject": "Physics",
+      "section": "Section-I",
+      "question_number": 18,
+      "question_text": "P 0 V 0 (B) P 0 V 0",
+      "question_images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "P 0 V 0",
+          "image": null
+        },
+        {
+          "label": "B",
+          "text": "P 0 V 0 4 2 4 2 \n 9 5 9 5",
+          "image": null
+        },
+        {
+          "label": "C",
+          "text": "P 0 V 0",
+          "image": null
+        },
+        {
+          "label": "D",
+          "text": "P 0 V 0",
+          "image": null
+        }
+      ],
+      "question_type": "single_correct",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "correct_answer": "A",
+      "solution": null
+    },
+    {
+      "question_id": "q-20",
+      "subject": "Physics",
+      "section": "Section-I",
+      "question_number": 20,
+      "question_text": "sin ( ) – 1 t 1 (B) sin ( )",
+      "question_images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "sin t",
+          "image": null
+        },
+        {
+          "label": "B",
+          "text": "sin ( ) 2 10t t 2 2 10t 2\n−1 10t 2 – 1 t 2 −1 10t 2 – 1 t 2",
+          "image": null
+        },
+        {
+          "label": "C",
+          "text": "sin ( )",
+          "image": null
+        },
+        {
+          "label": "D",
+          "text": "sin ( )",
+          "image": null
+        }
+      ],
+      "question_type": "single_correct",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "correct_answer": "A",
+      "solution": null
+    },
+    {
+      "question_id": "q-22",
+      "subject": "Physics",
+      "section": "Section-I",
+      "question_number": 2,
+      "question_text": "cm (B) 5.0",
+      "question_images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "2.5 cm",
+          "image": null
+        },
+        {
+          "label": "B",
+          "text": "5.0",
+          "image": null
+        },
+        {
+          "label": "C",
+          "text": "1.25",
+          "image": null
+        },
+        {
+          "label": "D",
+          "text": "None",
+          "image": null
+        }
+      ],
+      "question_type": "single_correct",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "correct_answer": "A",
+      "solution": null
+    },
+    {
+      "question_id": "q-24",
+      "subject": "Physics",
+      "section": "Section-I",
+      "question_number": 24,
+      "question_text": "m (B) 0.015 m",
+      "question_images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "0.025 m",
+          "image": null
+        },
+        {
+          "label": "B",
+          "text": "0.015 m",
+          "image": null
+        },
+        {
+          "label": "C",
+          "text": "0.001 m",
+          "image": null
+        },
+        {
+          "label": "D",
+          "text": "0.002 m",
+          "image": null
+        }
+      ],
+      "question_type": "single_correct",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "correct_answer": "A",
+      "solution": null
+    },
+    {
+      "question_id": "q-27",
+      "subject": "Physics",
+      "section": "Section-I",
+      "question_number": 27,
+      "question_text": "1800 nm\n LEADER TEST SERIES / JOINT PACKAGE COURSE 0999DJM262103240011\n LTS - Page 6 / 27 Space for Rough Work / E + H / 05012025\n For More Material Join: @JEEAdvanced_2025\n\n14. A particle A of mass 'm' and charge 'q' is accelerated 14. \u0000 \u0000 50V\n by a potential difference of 50 V. Another particle B \u0000 \u0000 \u0000 \u0000\n of mass '4 m' and charge 'q' is accelerated by a 2500 V \u0000\n potential difference of 2500 V. The ratio of de- \u0000 - \u0000 \u0000 \n λ A λ A Broglie wavelengths is close to : :-\n λ B λ B",
+      "question_images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "10.00",
+          "image": null
+        },
+        {
+          "label": "B",
+          "text": "14.14",
+          "image": null
+        },
+        {
+          "label": "C",
+          "text": "4.47",
+          "image": null
+        },
+        {
+          "label": "D",
+          "text": "0.07",
+          "image": null
+        }
+      ],
+      "question_type": "single_correct",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "correct_answer": "A",
+      "solution": null
+    },
+    {
+      "question_id": "q-29",
+      "subject": "Physics",
+      "section": "Section-I",
+      "question_number": 29,
+      "question_text": "15. In the given circuit, the diode has a forward 15. \u0000 \u0000 \n resistance of 8 Ω and infinite backward resistance. 8 Ω \u0000 \u0000 \u0000 , R \n The value of R is :- : -",
+      "question_images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "44 Ω",
+          "image": null
+        },
+        {
+          "label": "B",
+          "text": "48 Ω",
+          "image": null
+        },
+        {
+          "label": "C",
+          "text": "16 Ω",
+          "image": null
+        },
+        {
+          "label": "D",
+          "text": "8 Ω",
+          "image": null
+        }
+      ],
+      "question_type": "single_correct",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "correct_answer": "A",
+      "solution": null
+    },
+    {
+      "question_id": "q-31",
+      "subject": "Physics",
+      "section": "Section-I",
+      "question_number": 31,
+      "question_text": "8 Ω\n 16. A particle of mass m 1 , moving with uniform velocity of 16. m 1 \u0000 \u0000 \n 40 m/sec, collides with another mass m 2 at rest and then \u0000 m 2 \u0000 \u0000 \n both begin to move together with a uniform velocity of 'pk \n 30 m/s the ratio of their masses (m 1 /m 2 ) is :- \u0000 \u0000 1 /m 2 ) :-",
+      "question_images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "0.75",
+          "image": null
+        },
+        {
+          "label": "B",
+          "text": "1.33",
+          "image": null
+        },
+        {
+          "label": "C",
+          "text": "3.0",
+          "image": null
+        },
+        {
+          "label": "D",
+          "text": "4.0",
+          "image": null
+        }
+      ],
+      "question_type": "single_correct",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "correct_answer": "A",
+      "solution": null
+    },
+    {
+      "question_id": "q-34",
+      "subject": "Physics",
+      "section": "Section-I",
+      "question_number": 34,
+      "question_text": "200 N, 600 N (B) 600 N, 200 N",
+      "question_images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "200 N, 600 N",
+          "image": null
+        },
+        {
+          "label": "B",
+          "text": "600 N, 200 N",
+          "image": null
+        },
+        {
+          "label": "C",
+          "text": "800 N, 600 N",
+          "image": null
+        },
+        {
+          "label": "D",
+          "text": "600 N, 800 N",
+          "image": null
+        }
+      ],
+      "question_type": "single_correct",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "correct_answer": "A",
+      "solution": null
+    },
+    {
+      "question_id": "q-37",
+      "subject": "Physics",
+      "section": "Section-I",
+      "question_number": 37,
+      "question_text": "k + 1 1 − k 2 k + 1\ndV dV 19. A particle travels such that = −a √ v where a 19. \u0000 = −a √ v\ndt dt\n is constant. Its initial velocity is v 0 . The time at 0\n which it stops is :- \u0000 :-\n 2 √ V 0 √ V 0 2 √ V 0 √ V 0",
+      "question_images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "",
+          "image": null
+        },
+        {
+          "label": "B",
+          "text": "",
+          "image": null
+        },
+        {
+          "label": "C",
+          "text": "2a √ V 0",
+          "image": null
+        },
+        {
+          "label": "D",
+          "text": "a √ V 0",
+          "image": null
+        }
+      ],
+      "question_type": "single_correct",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "correct_answer": "A",
+      "solution": null
+    },
+    {
+      "question_id": "q-38",
+      "subject": "Physics",
+      "section": "Section-I",
+      "question_number": 38,
+      "question_text": "a √ V 0",
+      "question_images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "",
+          "image": null
+        },
+        {
+          "label": "B",
+          "text": "",
+          "image": null
+        },
+        {
+          "label": "C",
+          "text": "2a √ V 0",
+          "image": null
+        },
+        {
+          "label": "D",
+          "text": "a √ V 0",
+          "image": null
+        }
+      ],
+      "question_type": "single_correct",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "correct_answer": "A",
+      "solution": null
+    },
+    {
+      "question_id": "q-42",
+      "subject": "Chemistry",
+      "section": "Section-I",
+      "question_number": 42,
+      "question_text": "c, d (B) b, c, d",
+      "question_images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "c, d",
+          "image": null
+        },
+        {
+          "label": "B",
+          "text": "b, c, d",
+          "image": null
+        },
+        {
+          "label": "C",
+          "text": "Only b",
+          "image": null
+        },
+        {
+          "label": "D",
+          "text": "a, b",
+          "image": null
+        }
+      ],
+      "question_type": "single_correct",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "correct_answer": "A",
+      "solution": null
+    },
+    {
+      "question_id": "q-52",
+      "subject": "Chemistry",
+      "section": "Section-I",
+      "question_number": 9,
+      "question_text": "(B) 7.30",
+      "question_images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "9.30",
+          "image": null
+        },
+        {
+          "label": "B",
+          "text": "7.30",
+          "image": null
+        },
+        {
+          "label": "C",
+          "text": "10.30",
+          "image": null
+        },
+        {
+          "label": "D",
+          "text": "8.30",
+          "image": null
+        }
+      ],
+      "question_type": "single_correct",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "correct_answer": "A",
+      "solution": null
+    },
+    {
+      "question_id": "q-54",
+      "subject": "Chemistry",
+      "section": "Section-I",
+      "question_number": 54,
+      "question_text": "60% (B) 70%",
+      "question_images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "60%",
+          "image": null
+        },
+        {
+          "label": "B",
+          "text": "70%",
+          "image": null
+        },
+        {
+          "label": "C",
+          "text": "75%",
+          "image": null
+        },
+        {
+          "label": "D",
+          "text": "80%",
+          "image": null
+        }
+      ],
+      "question_type": "single_correct",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "correct_answer": "A",
+      "solution": null
+    },
+    {
+      "question_id": "q-58",
+      "subject": "Chemistry",
+      "section": "Section-I",
+      "question_number": 58,
+      "question_text": "34 (B) 35",
+      "question_images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "34",
+          "image": null
+        },
+        {
+          "label": "B",
+          "text": "35",
+          "image": null
+        },
+        {
+          "label": "C",
+          "text": "36",
+          "image": null
+        },
+        {
+          "label": "D",
+          "text": "37",
+          "image": null
+        }
+      ],
+      "question_type": "single_correct",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "correct_answer": "A",
+      "solution": null
+    },
+    {
+      "question_id": "q-60",
+      "subject": "Chemistry",
+      "section": "Section-I",
+      "question_number": 60,
+      "question_text": "MnO 2 , Cr 2 O 3 (B) Mn",
+      "question_images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "MnO 2 , Cr 2 O 3",
+          "image": null
+        },
+        {
+          "label": "B",
+          "text": "Mn 2 O 7 , CrO 3 2 O 7 , CrO 3",
+          "image": null
+        },
+        {
+          "label": "C",
+          "text": "CrO, MnO 2",
+          "image": null
+        },
+        {
+          "label": "D",
+          "text": "CrO",
+          "image": null
+        }
+      ],
+      "question_type": "single_correct",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "correct_answer": "A",
+      "solution": null
+    },
+    {
+      "question_id": "q-62",
+      "subject": "Chemistry",
+      "section": "Section-I",
+      "question_number": 62,
+      "question_text": "a, b (B) a, b, c",
+      "question_images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "a, b",
+          "image": null
+        },
+        {
+          "label": "B",
+          "text": "a, b, c",
+          "image": null
+        },
+        {
+          "label": "C",
+          "text": "b, c, d",
+          "image": null
+        },
+        {
+          "label": "D",
+          "text": "a, d",
+          "image": null
+        }
+      ],
+      "question_type": "single_correct",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "correct_answer": "A",
+      "solution": null
+    },
+    {
+      "question_id": "q-64",
+      "subject": "Chemistry",
+      "section": "Section-I",
+      "question_number": 64,
+      "question_text": "La (B) Ce",
+      "question_images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "La",
+          "image": null
+        },
+        {
+          "label": "B",
+          "text": "Ce\n +3 +3 +3 +3",
+          "image": null
+        },
+        {
+          "label": "C",
+          "text": "Eu",
+          "image": null
+        },
+        {
+          "label": "D",
+          "text": "Lu",
+          "image": null
+        }
+      ],
+      "question_type": "single_correct",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "correct_answer": "A",
+      "solution": null
+    },
+    {
+      "question_id": "q-68",
+      "subject": "Chemistry",
+      "section": "Section-I",
+      "question_number": 68,
+      "question_text": "O < S < F < Cl (B) O < S < Cl < F",
+      "question_images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "O < S < F < Cl",
+          "image": null
+        },
+        {
+          "label": "B",
+          "text": "O < S < Cl < F",
+          "image": null
+        },
+        {
+          "label": "C",
+          "text": "S < O < F < Cl",
+          "image": null
+        },
+        {
+          "label": "D",
+          "text": "S < O < Cl < F",
+          "image": null
+        }
+      ],
+      "question_type": "single_correct",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "correct_answer": "A",
+      "solution": null
+    },
+    {
+      "question_id": "q-84",
+      "subject": "Mathematics",
+      "section": "Section-I",
+      "question_number": 84,
+      "question_text": "200 (1 – e ) (B) 100 (1 – e)",
+      "question_images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "200 (1 – e )",
+          "image": null
+        },
+        {
+          "label": "B",
+          "text": "100 (1 – e)\n – 1 – 1",
+          "image": null
+        },
+        {
+          "label": "C",
+          "text": "50 (e – 1)",
+          "image": null
+        },
+        {
+          "label": "D",
+          "text": "150 (e – 1)",
+          "image": null
+        }
+      ],
+      "question_type": "single_correct",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "correct_answer": "A",
+      "solution": null
+    },
+    {
+      "question_id": "q-86",
+      "subject": "Mathematics",
+      "section": "Section-I",
+      "question_number": 86,
+      "question_text": "+ (B) +",
+      "question_images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "+",
+          "image": null
+        },
+        {
+          "label": "B",
+          "text": "+\n 4 2 2 4 4 2 2 4\nπ 2 2 π π π π 2 π π 2 π",
+          "image": null
+        },
+        {
+          "label": "C",
+          "text": "−",
+          "image": null
+        },
+        {
+          "label": "D",
+          "text": "−",
+          "image": null
+        }
+      ],
+      "question_type": "single_correct",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "correct_answer": "A",
+      "solution": null
+    },
+    {
+      "question_id": "q-90",
+      "subject": "Mathematics",
+      "section": "Section-I",
+      "question_number": 90,
+      "question_text": "381 (B) 521",
+      "question_images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "381",
+          "image": null
+        },
+        {
+          "label": "B",
+          "text": "521",
+          "image": null
+        },
+        {
+          "label": "C",
+          "text": "281",
+          "image": null
+        },
+        {
+          "label": "D",
+          "text": "None",
+          "image": null
+        }
+      ],
+      "question_type": "single_correct",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "correct_answer": "A",
+      "solution": null
+    },
+    {
+      "question_id": "q-95",
+      "subject": "Mathematics",
+      "section": "Section-I",
+      "question_number": 95,
+      "question_text": "48 (B) C 3 + 3 49 C 48",
+      "question_images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "48",
+          "image": null
+        },
+        {
+          "label": "B",
+          "text": "2 + 1 C 3 + 49 C 2 + 1 C 48 3 + 3 49 C 2 + 1 C 3 + 49 C 2 + 1\n1 1 1 1",
+          "image": null
+        },
+        {
+          "label": "C",
+          "text": "48",
+          "image": null
+        },
+        {
+          "label": "D",
+          "text": "52",
+          "image": null
+        }
+      ],
+      "question_type": "single_correct",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "correct_answer": "A",
+      "solution": null
+    },
+    {
+      "question_id": "q-96",
+      "subject": "Mathematics",
+      "section": "Section-I",
+      "question_number": 96,
+      "question_text": "52 3 C 49 3 + C 2 + 1 C 4 + 1 3 C 49 3 + C 2 + 1 C 4 + 1\n 8. If |z 1 | = 2, |z 2 | = 3, |z 3 | = 4 and 8. |z 1 | = 2, |z 2 | = 3, |z 3 | = 4\n|2z 1 + 3z 2 + 4z 3 | = 9 , then value of |2z 1 + 3z 2 + 4z 3 | = 9 , \n|8z 2 z 3 + 27z 3 z 1 + 64z 1 z 2 | is equal to |8z 2 z 3 + 27z 3 z 1 + 64z 1 z 2 | :-",
+      "question_images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "216",
+          "image": null
+        },
+        {
+          "label": "B",
+          "text": "18",
+          "image": null
+        },
+        {
+          "label": "C",
+          "text": "64",
+          "image": null
+        },
+        {
+          "label": "D",
+          "text": "None",
+          "image": null
+        }
+      ],
+      "question_type": "single_correct",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "correct_answer": "A",
+      "solution": null
+    },
+    {
+      "question_id": "q-97",
+      "subject": "Mathematics",
+      "section": "Section-I",
+      "question_number": 97,
+      "question_text": "None",
+      "question_images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "216",
+          "image": null
+        },
+        {
+          "label": "B",
+          "text": "18",
+          "image": null
+        },
+        {
+          "label": "C",
+          "text": "64",
+          "image": null
+        },
+        {
+          "label": "D",
+          "text": "9. Let λ ∈ R. The system of linear equations 9.",
+          "image": null
+        }
+      ],
+      "question_type": "single_correct",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "correct_answer": "A",
+      "solution": null
+    },
+    {
+      "question_id": "q-100",
+      "subject": "Mathematics",
+      "section": "Section-I",
+      "question_number": 100,
+      "question_text": "λ \u0000 \n 3 cos 36 ∘ + 5 sin 18 ∘ a √ ∘ ∘ 5 − b 3 cos 36 + 5 sin 18 a √ 5 − b 10. If the value of ∘ ∘ is 10. ∘ ∘ = a, b, 5 cos 36 − 3 sin 18 c 5 cos 36 − 3 sin 18 c\n , where a, b, c are natural numbers and gcd(a, c) = 1, c \u0000 gcd(a, c) = 1 , a + b + c\n then a + b + c is equal to :",
+      "question_images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "50",
+          "image": null
+        },
+        {
+          "label": "B",
+          "text": "40",
+          "image": null
+        },
+        {
+          "label": "C",
+          "text": "52",
+          "image": null
+        },
+        {
+          "label": "D",
+          "text": "54",
+          "image": null
+        }
+      ],
+      "question_type": "single_correct",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "correct_answer": "A",
+      "solution": null
+    },
+    {
+      "question_id": "q-102",
+      "subject": "Mathematics",
+      "section": "Section-I",
+      "question_number": 102,
+      "question_text": "54\n LEADER TEST SERIES / JOINT PACKAGE COURSE 0999DJM262103240011\n E + H / 05012025 Space for Rough Work / LTS - Page 21 / 27\n For More Material Join: @JEEAdvanced_2025\n\n11. If the variance of the frequency distribution is 11. \n 160, then the value of c ∈ N is x c 2c 3c 4c 5c 6c\n x c 2c 3c 4c 5c 6c f 2 1 1 1 1 1\n f 2 1 1 1 1 1 \u0000 , c ∈ N",
+      "question_images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "5",
+          "image": null
+        },
+        {
+          "label": "B",
+          "text": "8",
+          "image": null
+        },
+        {
+          "label": "C",
+          "text": "7",
+          "image": null
+        },
+        {
+          "label": "D",
+          "text": "6",
+          "image": null
+        }
+      ],
+      "question_type": "single_correct",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "correct_answer": "A",
+      "solution": null
+    },
+    {
+      "question_id": "q-104",
+      "subject": "Mathematics",
+      "section": "Section-I",
+      "question_number": 104,
+      "question_text": "6\n 12. Let α , β ∈ R. Let the mean and the variance of 6 12. α , β ∈ R 6 \u0000 – 3, 4, 7, – 6, α , β \n observations – 3, 4, 7, – 6, α , β be 2 and 23, \u0000 \u0000 \u0000 23 , \u0000 \n respectively. The mean deviation about the mean \u0000 \u0000 \u0000 :\n of these 6 observations is :\n13 16 11 14 13 16 11 14",
+      "question_images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "",
+          "image": null
+        },
+        {
+          "label": "B",
+          "text": "",
+          "image": null
+        },
+        {
+          "label": "C",
+          "text": "",
+          "image": null
+        },
+        {
+          "label": "D",
+          "text": "",
+          "image": null
+        }
+      ],
+      "question_type": "single_correct",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "correct_answer": "A",
+      "solution": null
+    },
+    {
+      "question_id": "q-107",
+      "subject": "Mathematics",
+      "section": "Section-I",
+      "question_number": 107,
+      "question_text": "|a| ≥ 1 (B) |a| < 1",
+      "question_images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "|a| ≥ 1",
+          "image": null
+        },
+        {
+          "label": "B",
+          "text": "|a| < 1",
+          "image": null
+        },
+        {
+          "label": "C",
+          "text": "a > 1",
+          "image": null
+        },
+        {
+          "label": "D",
+          "text": "a < 1",
+          "image": null
+        }
+      ],
+      "question_type": "single_correct",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "correct_answer": "A",
+      "solution": null
+    },
+    {
+      "question_id": "q-110",
+      "subject": "Mathematics",
+      "section": "Section-I",
+      "question_number": 110,
+      "question_text": "LEADER TEST SERIES / JOINT PACKAGE COURSE 0999DJM262103240011\n LTS - Page 22 / 27 Space for Rough Work / E + H / 05012025\n For More Material Join: @JEEAdvanced_2025\n\n α x β x α x β x 15. Let ƒ(x) = 3 + 3 , where α ≠ β 15. ƒ(x) = 3 + 3 α ≠ β x \n2 and 3ƒ'(x)log 2 3 e = 2ƒ(x) + ƒ''(x).(log 3 e) for all x. 3ƒ'(x)log 3 e = 2ƒ(x) + ƒ''(x).(log 3 e) , α + β\n Then the value of α + β is",
+      "question_images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "3",
+          "image": null
+        },
+        {
+          "label": "B",
+          "text": "2",
+          "image": null
+        },
+        {
+          "label": "C",
+          "text": "– 3",
+          "image": null
+        },
+        {
+          "label": "D",
+          "text": "6",
+          "image": null
+        }
+      ],
+      "question_type": "single_correct",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "correct_answer": "A",
+      "solution": null
+    },
+    {
+      "question_id": "q-113",
+      "subject": "Mathematics",
+      "section": "Section-I",
+      "question_number": 113,
+      "question_text": "a ∈ (0, 257] (B) a ∈ [257, ∞ )",
+      "question_images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "a ∈ (0, 257]",
+          "image": null
+        },
+        {
+          "label": "B",
+          "text": "a ∈ [257, ∞ )",
+          "image": null
+        },
+        {
+          "label": "C",
+          "text": "a ∈ (257, ∞ )",
+          "image": null
+        },
+        {
+          "label": "D",
+          "text": "a ∈ (0, 257)",
+          "image": null
+        }
+      ],
+      "question_type": "single_correct",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "correct_answer": "A",
+      "solution": null
+    },
+    {
+      "question_id": "q-117",
+      "subject": "Mathematics",
+      "section": "Section-I",
+      "question_number": 117,
+      "question_text": "a ≥ 1 or a ≤ – 3 (B) a ∈ (0, 1)",
+      "question_images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "a ≥ 1 a ≤ – 3",
+          "image": null
+        },
+        {
+          "label": "B",
+          "text": "a ∈ (0, 1)\n 1 1",
+          "image": null
+        },
+        {
+          "label": "C",
+          "text": "a ∈ ( – 3, 0) ∪ ( , 1 )",
+          "image": null
+        },
+        {
+          "label": "D",
+          "text": "None of these",
+          "image": null
+        }
+      ],
+      "question_type": "single_correct",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "correct_answer": "A",
+      "solution": null
+    },
+    {
+      "question_id": "q-119",
+      "subject": "Mathematics",
+      "section": "Section-I",
+      "question_number": 119,
+      "question_text": "5 (B) 7",
+      "question_images": [],
+      "options": [
+        {
+          "label": "A",
+          "text": "5",
+          "image": null
+        },
+        {
+          "label": "B",
+          "text": "7",
+          "image": null
+        },
+        {
+          "label": "C",
+          "text": "8",
+          "image": null
+        },
+        {
+          "label": "D",
+          "text": "√ 50",
+          "image": null
+        }
+      ],
+      "question_type": "single_correct",
+      "marks_correct": 4,
+      "marks_incorrect": -1,
+      "correct_answer": "A",
+      "solution": null
+    }
+  ]
+}

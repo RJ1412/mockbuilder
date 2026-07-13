@@ -20,7 +20,6 @@ export default function NewTestPage() {
   const [answerKeyFile, setAnswerKeyFile] = useState<File | null>(null)
   
   const [title, setTitle] = useState("")
-  const [totalQuestions, setTotalQuestions] = useState("")
   const [durationMinutes, setDurationMinutes] = useState("")
   const [markingCorrect, setMarkingCorrect] = useState("4")
   const [markingWrong, setMarkingWrong] = useState("-1")
@@ -56,7 +55,6 @@ export default function NewTestPage() {
         formData.append("answerKeyFile", answerKeyFile)
       }
       formData.append("title", title)
-      formData.append("totalQuestions", totalQuestions)
       formData.append("durationMinutes", durationMinutes)
       formData.append("markingCorrect", markingCorrect)
       formData.append("markingWrong", markingWrong)
@@ -207,12 +205,7 @@ export default function NewTestPage() {
                 <Label htmlFor="title">Test Title</Label>
                 <Input id="title" placeholder="e.g. JEE Mains 2024 Full Mock" value={title} onChange={e => setTitle(e.target.value)} required />
               </div>
-              
-              <div className="space-y-2">
-                <Label htmlFor="total-q">Total Questions</Label>
-                <Input id="total-q" type="number" placeholder="e.g. 90" value={totalQuestions} onChange={e => setTotalQuestions(e.target.value)} required />
-              </div>
-              
+
               <div className="space-y-2">
                 <Label htmlFor="duration">Duration (Minutes)</Label>
                 <Input id="duration" type="number" placeholder="e.g. 180" value={durationMinutes} onChange={e => setDurationMinutes(e.target.value)} required />
@@ -275,7 +268,7 @@ export default function NewTestPage() {
 
             <div className="flex justify-between pt-4">
               <Button variant="ghost" onClick={() => setStep(1)}>Back</Button>
-              <Button onClick={handleProcess} disabled={!title || !totalQuestions || !durationMinutes}>
+              <Button onClick={handleProcess} disabled={!title || !durationMinutes}>
                 Save & Process
               </Button>
             </div>
